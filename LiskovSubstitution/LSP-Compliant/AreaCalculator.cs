@@ -2,8 +2,7 @@
 
 public class AreaCalculator
 {
-	
-	public double CalculateTotalArea(IEnumerable<IShape> shapes)
+    public double CalculateTotalArea(IEnumerable<IShape> shapes)
     {
         double totalArea = 0;
         foreach (var shape in shapes)

@@ -6,6 +6,6 @@ public class Circle : IShape
 
     public double CalculateArea()
     {
-        return Radius * Radius * Math.PI;
+        return Math.PI * Radius * Radius;
     }
 }
